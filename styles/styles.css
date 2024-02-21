@@ -4,7 +4,6 @@
 
 }
 
-
 body{
   width: 100%;
   height: 100%;
@@ -44,22 +43,22 @@ font-weight: bold;
 color: aliceblue;
 margin-bottom: 20px;
 text-align: center;
-
 }
 
-.mobile{
+.pc{
   text-align: center;
   font-size: xx-large;
   font-weight: 800;
   color: aliceblue;
 }
+
 p{
   color: aliceblue;
 }
 
 .play-button{
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 0px;
   padding: 15px 25px;
   border-radius: 15px;
   background-color: aqua;
@@ -69,6 +68,8 @@ p{
   align-items: center;
   justify-content: space-around;
 }
+
+
 
 
 .arth-board-container{
@@ -106,6 +107,10 @@ align-items: center;
   font-weight: bolder;
 }
 
+
+.kbd-container{
+  margin-top: 10px;
+}
 .kbd-first-line{
   /* flex justify-center gap-1 my-1 w-full */
 display: flex;
@@ -143,7 +148,7 @@ width: 100%;
 .button-container{
   display: flex;
   justify-content: space-around;
-  margin-bottom: 100px;
+  margin-bottom:15px ;
 }
 
 #play-ground{
@@ -311,15 +316,25 @@ margin: 0 auto;
 
 .arth-board{
 height: 200px;
+margin: 30px 0px;
 }
 .alphabet{
   text-align: center;
   font-size: 100px;
   font-weight: bolder;
 }
+.kbd-container{
+  padding: 0px 10px;
+}
 .score-board{
  
 width:80%;
 height: 60%;}
+
+#play-ground{
+width:100%;
+height: 100%;
+}
+
 
 }
