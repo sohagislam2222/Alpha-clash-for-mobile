@@ -120,6 +120,17 @@ margin-bottom: 10px;
 margin-top: 50px;
 width: 100%;
 }
+.play-again-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.practice{
+color: #000;
+font-weight: bold;
+}
+
 .kbd-second-line{
   display: flex;
 justify-content: center;
